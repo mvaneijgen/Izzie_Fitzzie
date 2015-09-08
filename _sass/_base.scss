@@ -71,8 +71,10 @@ h1, h2, h3, h4, h5, h6 {
 a {
   color: #36ab8a;
   text-decoration: none; }
+
   a:visited {
     color: #36ab8a; }
+
   a:hover {
     color: #36ab8a;
     text-decoration: none; }
@@ -87,6 +89,7 @@ blockquote {
   font-size: 18px;
   letter-spacing: -1px;
   font-style: italic; }
+
   blockquote > :last-child {
     margin-bottom: 0; }
 
@@ -106,7 +109,8 @@ code {
 pre {
   padding: 8px 12px;
   overflow-x: scroll; }
-  pre > code {
+
+pre > code {
     border: 0;
     padding-right: 0;
     padding-left: 0; }
@@ -121,6 +125,7 @@ pre {
   margin-left: 10px;
   padding-right: 30px;
   padding-left: 30px; }
+
   @media screen and (max-width: 1800px) {
     .wrapper {
       max-width: -webkit-calc(1800px - (30px));
@@ -144,7 +149,8 @@ pre {
   width: 16px;
   height: 16px;
   vertical-align: middle; }
-  .icon > svg path {
+
+.icon > svg path {
     fill: #ffffff; }
 
 /**
@@ -164,19 +170,23 @@ pre {
   margin-bottom: 0;
   float: left;
   color: #F9AA89; }
-  .site-title, .site-title:visited {
+
+.site-title, .site-title:visited {
     color: #F9AA89; }
 
 .site-nav {
   float: right;
   line-height: 56px; }
-  .site-nav .menu-icon {
+
+.site-nav .menu-icon {
     display: none; }
-  .site-nav .page-link {
+
+.site-nav .page-link {
     color: #F9AA89;
     font-family: 'Niconne', cursive;
     line-height: 1.5; }
-    .site-nav .page-link:not(:first-child) {
+
+.site-nav .page-link:not(:first-child) {
       margin-left: 20px; }
   @media screen and (max-width: 600px) {
     .site-nav {
